@@ -40,7 +40,6 @@ simple-billiards-engine/
 ```
 ## 📝 How to Use
 
-0. Star this project.
 1. Fork or Import this repository.
 2. Open 「index.html」 in any modern web browser.
 3. Drag the **Blue Ball (Cue Ball)** to aim, and release to shoot.
