@@ -1,13 +1,14 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-// --- Physical Constant ---
+// --- Physical Constants ---
 const ball_r = 10;
 const pocket_r = 18;
 const MAX_PULL = 150;
 const FRICTION = 0.985;
 
 // Pocket Spot
+// [pocketX,pocketY]
 const pocket_pos = [
   [15, 15],
   [400, 10],
@@ -54,7 +55,7 @@ class Ball {
       ctx.fillStyle = "#0000ff";
       ctx.fill();
     } else {
-      // This ball is not cue ball
+      // This ball is object ball
       ctx.fillStyle = "#333333";
       ctx.fill();
       ctx.strokeStyle = "rgba(255,255,255,0.3)";
@@ -100,7 +101,7 @@ function resetGame() {
   cueBall = new Ball(200, 200, ball_r, true);
   balls.push(cueBall);
 
-  // Other ball
+  // Object ball
   const rackStartX = 550;
   const rackStartY = 200;
   const dy = ball_r * 2 + 1;
@@ -323,7 +324,7 @@ window.addEventListener('pointerup', e => {
   isDragging = false;
 });
 
-// Loop these scripts
+// Main game loop
 function loop() {
   update();
   draw();
