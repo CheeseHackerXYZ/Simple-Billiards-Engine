@@ -26,7 +26,7 @@ We use CSS Variables for easy skinning:
 - 「--table-color」: The color of the pool table.
 - 「--border-color」: The table frame color.
 
-*Note: Individual ball colors (including the Cue Ball) are managed within the 「draw()」 method in 「js/script.js」 for more granular control.*
+*Note: Individual ball colors (including the Cue Ball) are managed within the 「draw()」 method in 「script.js」 for more granular control.*
 
 ## 📂 File Structure
 
