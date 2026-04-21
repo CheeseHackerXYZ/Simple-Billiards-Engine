@@ -40,7 +40,8 @@ simple-billiards-engine/
 ```
 ## 📝 How to Use
 
-1. Clone or download this repository.
+0. Star this project.
+1. Fork or Import this repository.
 2. Open 「index.html」 in any modern web browser.
 3. Drag the **Blue Ball (Cue Ball)** to aim, and release to shoot.
 4. Press the **RESET BALLS** button to restart the layout.
@@ -48,7 +49,3 @@ simple-billiards-engine/
 ## 📜 License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this code for personal or commercial projects.
-
----
-
-I'd be happy if you could give me a Star
