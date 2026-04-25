@@ -50,5 +50,5 @@ simple-billiards-engine/
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this code for personal or commercial projects.
 
 ---
-
-Star this repo if you find it useful.
+This project was developed by **CheeseHackerXYZ**.
+*Star* this repo if you find it useful.
